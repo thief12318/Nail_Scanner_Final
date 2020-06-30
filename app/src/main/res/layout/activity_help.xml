@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:text="More Information"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colortWhite"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/onychomycosis_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:text="Onychomycosis(Yellow Nails)" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/m2" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="178dp"
+                android:layout_marginTop="-152dp"
+                app:srcCompat="@drawable/m3" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="150dp"
+                android:layout_height="153dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/m1" />
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="155dp"
+                android:layout_height="145dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="-149dp"
+                app:srcCompat="@drawable/m4" />
+
+            <TextView
+                android:id="@+id/onychomycosis_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="2dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:text="Onychomycosis, also known as tinea unguium, is a fungal infection of the nail. Symptoms may include white or yellow nail discoloration,
+                 thickening of the nail, and separation of the nail from the nail bed. \n\n Possible serious health condition: \n\u2022 Respiratory disorders \n\u2022 Diabetes or liver problems
+                  \n\u2022Can be indicative of problems with the lymphatic system" />
+
+
+
+            <TextView
+            android:id="@+id/melanonychia_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:lineSpacingExtra="8sp"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:text="Melanonychia(Black Fingernails)" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/o1" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="178dp"
+                android:layout_marginTop="-152dp"
+                app:srcCompat="@drawable/o2" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/o3" />
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="-149dp"
+                app:srcCompat="@drawable/o4" />
+
+            <TextView
+                android:id="@+id/mylanonychia_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="2dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:text="Melanonychia is brown or black discolouration of a nail. It may be diffuse or take the form of a longitudinal band.
+                 \n\nPossible serious health conditions: \n\u2022 B-12 deficiency \n\u2022 Bacterial infection
+                  \n\u2022Chronic kidney disease \n\u2022Adrenal gland problems \n\u2022Liver disease \n\u2022Trauma" />
+
+            <TextView
+                android:id="@+id/leukonychia_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:lineSpacingExtra="8sp"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:text="Leukonychia(White Spots on Fingernails)" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/l1" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="178dp"
+                android:layout_marginTop="-152dp"
+                app:srcCompat="@drawable/l2" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/l3" />
+
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="-149dp"
+                app:srcCompat="@drawable/l4" />
+
+            <TextView
+                android:id="@+id/leukonychia_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginTop="2dp"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:text="Leukonychia describes a whitish discoloration of the nail, which may be due to persistence of nuclei in the cells of the ventral nail plate (true leukonychia), or to a pallor of the nail bed (apparent leukonychia).
+                 \n\nPossible serious health conditions: \n\u2022 In most cases this is due to a zinc deficiency or injuries to the nail bed.
+                  \n\u2022 Iron or zinc deficiency \n\u2022Indicative of certain internal problems such as arthritis, or from poisoning." />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
